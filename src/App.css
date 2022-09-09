@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  padding-top: 10ch;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: rgb(39, 42, 54);
+}
+
+.header {
+  color: rgb(221, 203, 218);
+}
+
+.input-task-title {
+  min-width: max(15vw, 170px);
+  margin-right: 10px;
+  background-color: rgb(235, 223, 233);
+}
+
+.tasks {
+  color: rgb(202, 184, 199);
+  margin-left: 3.5%;
+  width: max(25vw, 250px);
+}
+
+.newtask {
+  width: 200%;
+  margin-right: 10px;
+  
+}
+
+.del {
+  margin-left:10px;
+  margin-top: 10px;
+  background-color:rgb(196, 53, 120);
+  color: white;
+  border-radius: 5px;
+}
+
+.add {
+  background-color: rgb(240, 210, 235);
+}
+
+.check {
+  margin-left: 20px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
